@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/salahytm/Systeme_embarqué'
+/usr/bin/avr-gcc -g -Wall -Werror -Os -mmcu=atmega328 -DF_CPU=16000000L --std=c99 -c convoi.c
+/usr/bin/avr-gcc -g -Wall -Werror -Os -mmcu=atmega328 -DF_CPU=16000000L --std=c99 -c uart.c
+/usr/bin/avr-gcc -g -Wall -Werror -Os -mmcu=atmega328 -DF_CPU=16000000L --std=c99 -Wl,-Map,convoi.map -o convoi.elf convoi.o uart.o 
+/usr/bin/avr-size convoi.elf
+/usr/bin/avr-objcopy -j .text -j .data -O ihex convoi.elf convoi.hex
+make: Leaving directory '/home/salahytm/Systeme_embarqué'
+ 

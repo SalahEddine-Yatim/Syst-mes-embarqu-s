@@ -1,0 +1,491 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu May  4 22:10:23 2023
+
+# Variables
+
+# environment
+JAVA_HOME = /home/salahytm/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10
+# makefile (from 'Makefile', line 5)
+OBJ = convoi.o uart.o
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/salahytm
+# makefile (from 'Makefile', line 30)
+LIBS = 
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+JAVA_OPTS = -Dhttps.proxyHost=proxy.isae.fr -Dhttps.proxyPort=3128
+# environment
+SNAP_INSTANCE_NAME = code
+# makefile (from 'Makefile', line 39)
+PROGRAMMER_TYPE = arduino
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/127/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# makefile (from 'Makefile', line 29)
+DEFS = -DF_CPU=16000000L
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/salahytm/Systeme_embarqué
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /home/salahytm/snap/code/127/.local/share:/home/salahytm/snap/code/127:/snap/code/127/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_CODE_CACHE_PATH = /home/salahytm/.config/Code/CachedData/252e5463d60e63238250799aef7375787f68b4ee
+# environment
+LANG = C
+# makefile (from 'Makefile', line 35)
+CONFIG_FILE = /etc/avrdude.conf
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.APEH41
+# default
+.LOADED := 
+# makefile (from 'Makefile', line 84)
+STUDENT_DIR = arduino
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 15)
+AVR_TOOLCHAIN = /usr
+# makefile
+CURDIR := /home/salahytm/Systeme_embarqué
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 4)
+PRG = convoi
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+CONDA_SHLVL = 1
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 7140
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+CONDA_PYTHON_EXE = /home/salahytm/anaconda3/bin/python
+# environment
+SESSION_MANAGER = local/salah-pc:@/tmp/.ICE-unix/1932,unix/salah-pc:/tmp/.ICE-unix/1932
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"fr-fr","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GTK_PATH = /snap/code/127/usr/lib/x86_64-linux-gnu/gtk-3.0
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# environment
+CONDA_PREFIX = /home/salahytm/anaconda3
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
+# makefile (from 'Makefile', line 23)
+OBJDUMP = $(AVR_TOOLCHAIN)/bin/avr-objdump
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = KCq0iCM9-oSJRS153y5WkusbPxVb8LhAGNxQ7UwPIkRFiNBCwMU9
+# environment
+PATH = /home/salahytm/anaconda3/bin:/home/salahytm/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/salahytm/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/bin:/home/salahytm/.local/share/coursier/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/salahytm/snap/code/common
+# environment
+SNAP = /snap/code/127
+# environment
+INVOCATION_ID = 1ec45a4577dc4cb3a581a63f149231d5
+# environment
+SNAP_REVISION = 127
+# environment
+SNAP_REAL_HOME = /home/salahytm
+# environment
+USERNAME = salahytm
+# makefile (from 'Makefile', line 24)
+SIZE = $(AVR_TOOLCHAIN)/bin/avr-size
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+GTK_IM_MODULE_FILE = /home/salahytm/snap/code/common/.cache/immodules/immodules.cache
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+LOCPATH = /snap/code/127/usr/lib/locale
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+LOGNAME = salahytm
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 1964
+# environment
+DISPLAY = :0
+# environment
+USER = salahytm
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+SNAP_DATA = /var/snap/code/127
+# makefile (from 'Makefile', line 36)
+CPU_TYPE = ATMEGA328
+# environment
+SNAP_CONTEXT = KCq0iCM9-oSJRS153y5WkusbPxVb8LhAGNxQ7UwPIkRFiNBCwMU9
+# makefile (from 'Makefile', line 45)
+LDFLAGS = -Wl,-Map,$(PRG).map
+# environment
+MANAGERPID = 1771
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6991
+# environment
+_ = /snap/code/127/usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 44)
+CFLAGS = -g -Wall -Werror $(OPTIMIZE) -mmcu=$(MCU_TARGET) $(DEFS) --std=c99
+# makefile (from 'Makefile', line 37)
+SERIAL_PORT = /dev/ttyUSB0
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/salahytm/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+GIO_MODULE_DIR = /home/salahytm/snap/code/common/.cache/gio-modules
+# environment
+JOURNAL_STREAM = 8:31402
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/salahytm
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0ddcec30-1.78-main.sock
+# environment
+GTK_EXE_PREFIX = /snap/code/127/usr
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /home/salahytm/snap/code/127/.local/share/glib-2.0/schemas
+# makefile (from 'Makefile', line 27)
+OPTIMIZE = -Os
+# makefile (from 'Makefile', line 38)
+BAUDRATE = 115200
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 252e5463
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# makefile (from 'Makefile', line 26)
+MCU_TARGET = atmega328
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 21)
+CC = $(AVR_TOOLCHAIN)/bin/avr-gcc
+# makefile (from 'Makefile', line 22)
+ 
+OBJCOPY = $(AVR_TOOLCHAIN)/bin/avr-objcopy
+# environment
+SNAP_USER_DATA = /home/salahytm/snap/code/127
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+CONDA_EXE = /home/salahytm/anaconda3/bin/conda
+# environment
+GDMSESSION = ubuntu
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=147/1024=14%, Rehash=0, Collisions=6/189=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2066, inode 3935132): 30 files, no impossibilities.
+
+# 30 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 59):
+	$(CC) $(CFLAGS) -c $<
+
+%.hex: %.elf
+#  recipe to execute (from 'Makefile', line 74):
+	$(OBJCOPY) -j .text -j .data -O ihex $< $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+dist: package_student
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+distclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 67):
+	rm -rf $(PRG).hex
+
+convoi.hex: convoi.elf
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'convoi'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+#  recipe to execute (from 'Makefile', line 74):
+	$(OBJCOPY) -j .text -j .data -O ihex $< $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-04-20 00:57:07.762252541
+#  File has been updated.
+#  Successfully updated.
+
+convoi.elf: convoi.o uart.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+#  recipe to execute (from 'Makefile', line 55):
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LIBS)
+	$(SIZE) $@
+
+upload: hex
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	$(AVR_TOOLCHAIN)/bin/avrdude -C $(CONFIG_FILE) -p $(CPU_TYPE) \
+	-P $(SERIAL_PORT) \
+	-c $(PROGRAMMER_TYPE) -b $(BAUDRATE) -F -u -U flash:w:$(PRG).hex
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 62):
+	rm -rf *.o $(PRG).elf $(PRG).bin *.hex *.bak
+	rm -rf *.lst *.map $(EXTRA_CLEAN_FILES)
+	rm -rf *~ *eeprom*
+
+# Not a target:
+uart.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: hex
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+package_student:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	-rm -rf $(STUDENT_DIR)
+	mkdir $(STUDENT_DIR)
+	cp Makefile $(STUDENT_DIR)
+	-unifdef -D__STUDENT__ pid.c > $(STUDENT_DIR)/pid.c
+	-unifdef -D__STUDENT__ blink.c > $(STUDENT_DIR)/blink.c
+	tar zcvf $(STUDENT_DIR).tar.gz $(STUDENT_DIR)
+
+# Not a target:
+convoi.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-04-20 08:25:15.984020948
+#  File has been updated.
+#  Successfully updated.
+
+convoi.o: convoi.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'convoi'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := convoi.o
+# automatic
+# * := convoi
+# automatic
+# < := convoi.c
+# automatic
+# + := convoi.c
+# automatic
+# % := 
+# automatic
+# ^ := convoi.c
+# automatic
+# ? := convoi.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/18=22%
+#  recipe to execute (from 'Makefile', line 59):
+	$(CC) $(CFLAGS) -c $<
+
+terminal:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 79):
+	screen /dev/ttyUSB0 115200
+
+hex: convoi.hex
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+# files hash-table stats:
+# Load=16/1024=2%, Rehash=0, Collisions=0/42=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 51 / storage = 509 B / avg = 9 B
+# current buf: size = 8162 B / used = 509 B / count = 51 / avg = 9 B
+
+# strcache performance: lookups = 74 / hit rate = 31%
+# hash-table stats:
+# Load=51/8192=1%, Rehash=0, Collisions=0/74=0%
+# Finished Make data base on Thu May  4 22:10:23 2023
+
+ 
